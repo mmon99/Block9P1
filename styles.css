@@ -1,0 +1,40 @@
+html {
+  background-color: beige;
+}
+
+h1 { 
+    color: red;
+  }
+
+.navigation {
+  border-style: double; border-color: blue; background-color: aquamarine;
+  margin-top: 50px; padding-inline: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block; padding: 5px;
+  border-right: 10px; 
+}
+
+h2 {
+  text-align: center; color: blue;
+}
+
+#profile {
+  display: inline-block; margin-left: 200;
+}
+
+p {
+  text-align: justify; color: brown; margin-left: 200px;
+}
+
+footer {
+  text-align: center;
+}
+
