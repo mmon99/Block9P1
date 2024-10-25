@@ -8,18 +8,14 @@ h1 {
 
 .navigation {
   border-style: double; border-color: blue; background-color: aquamarine;
-  margin-top: 50px; padding-inline: 20px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
+  margin-top: 50px; padding-inline: 10px; align-items: center;
+  justify-content: space-between; height: 100px;
 }
 
 li {
   display: inline-block; padding: 5px;
-  border-right: 10px; 
+  border-right: 50px; margin-left: 50px;
+  text-align: center;
 }
 
 h2 {
@@ -27,11 +23,12 @@ h2 {
 }
 
 #profile {
-  display: inline-block; margin-left: 200;
+  display: inline-block; margin-left: 200; margin-right: 0px;
 }
 
 p {
-  text-align: justify; color: brown; margin-left: 200px;
+  text-align: justify; color: brown; margin-left: 0px;
+  display: inline-block
 }
 
 footer {
