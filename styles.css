@@ -31,6 +31,14 @@ p {
   display: inline-block
 }
 
+.about {
+  color: blueviolet;
+}
+
+.portfolio {
+  color: blue;
+}
+
 footer {
   text-align: center;
 }
