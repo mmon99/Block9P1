@@ -4,31 +4,56 @@ html {
 
 h1 { 
     color: red; font-family: Arial, Helvetica, sans-serif;
-  }
-
-.navigation {
-  border-style: double; border-color: blue; background-color: aquamarine;
-  margin-top: 50px; padding-inline: 10px; align-items: center;
-  justify-content: space-between;
 }
 
-li {
-  display: inline-block; padding: 5px;
-  border-right: 50px; margin-left: 50px;
-  text-align: center;
+header {
+  display: flex;
+  border-color: blue;
+  border-style: double;
+  background-color: rgba(172, 255, 47, 0.353);
+}
+
+.logo {
+  margin-left: 100px;
+}
+
+nav {
+    display: flex;
+    margin-left: 800px;
+}
+  
+.nav-item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-style: oblique;
+    color: blue;
+    text-decoration: solid;
+    padding: 30px;
+}
+
+.nav-item hover {
+    background-color: red;
+    box-shadow: green;
 }
 
 h2 {
-  text-align: center; color: blue; font-family: Arial, Helvetica, sans-serif;
+  text-align: center; 
+  color: blue; 
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #profile {
-  display: inline-block; margin-left: 200; margin-right: 0px;
+  display: inline-block; 
+  margin-left: 200; 
+  margin-right: 0px;
 }
 
 p {
-  text-align: justify; color: brown; margin-left: 0px;
-  display: inline-block; font-size: 24;
+  text-align: justify; 
+  color: brown; 
+  margin-left: 0px;
+  display: inline-block; 
+  font-size: 24;
 }
 
 .about {
