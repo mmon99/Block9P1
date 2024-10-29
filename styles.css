@@ -3,7 +3,8 @@ html {
 }
 
 h1 { 
-    color: red; font-family: Arial, Helvetica, sans-serif;
+  color: red; 
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -19,7 +20,7 @@ header {
 
 nav {
   display: flex;
-  margin-left: 810px;
+  margin-left: 800px;
 }
   
 .nav-item {
@@ -35,7 +36,7 @@ nav {
 }
 
 .nav-item a:hover {
-  background-color: aquamarine;
+  background-color: lightcyan;
   box-shadow: green;
 }
 
