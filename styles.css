@@ -19,7 +19,7 @@ header {
 
 nav {
   display: flex;
-  margin-left: 800px;
+  margin-left: 810px;
 }
   
 .nav-item {
@@ -29,10 +29,13 @@ nav {
   color: blue;
   text-decoration: solid;
   padding: 30px;
+  border-color: aqua;
+  border-style: double;
+  background-color: blanchedalmond;
 }
 
 .nav-item a:hover {
-  background-color: chartreuse;
+  background-color: aquamarine;
   box-shadow: green;
 }
 
